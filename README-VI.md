@@ -10,6 +10,7 @@
 
 > Mô hình MVC (Mô hình - View - Controller)
 
+```
 1. Nắm vững kiến thức cơ bản về PHP
 2. Kiến thức về viết lại URL
 3. Biểu thức chính quy
@@ -27,3 +28,4 @@
     6.7. Tuyến đường mã
     6.8. Cơ sở dữ liệu mã
     6.9. tối ưu hóa ứng dụng
+```

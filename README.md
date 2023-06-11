@@ -10,6 +10,7 @@
 
 > Model MVC (Model - View - Controller)
 
+```
 1. Master the basics of PHP
 2. Knowledge of URL Rewrite
 3. Regular Expressions
@@ -27,5 +28,5 @@
     6.7. Code Routes
     6.8. Code Database
     6.9. Application optimization 
-
+```
 
