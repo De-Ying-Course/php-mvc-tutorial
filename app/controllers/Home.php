@@ -11,12 +11,6 @@ class Home extends Controller
 
     public function index()
     {
-        $data = $this->model_home->getList();
-
-        echo '<pre>';
-        print_r($data);
-        echo '</pre>';
-
         // Render views
     }
 }

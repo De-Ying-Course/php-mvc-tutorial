@@ -27,7 +27,7 @@
     6.6. Code Views
     6.7. Code Routes
     6.8. Code Database
-    6.9. Application optimization 
+    6.9. Application optimization
 ```
 
 ## Shared content
@@ -35,7 +35,7 @@
 > Part 1: Routes, Controllers
 
 ```
-1. Configuration file `.htaccess`  
+1. Configuration file `.htaccess`
 2. Handling navigation (routes) - Call the respective controllers - `App.php`
 3. Controllers - Class & Action
 ```
@@ -44,13 +44,29 @@
 
 ```
 1. models
-2. core 
-    > Controller.php (Base Controller): Write a function to handle model 
+2. core
+    > Controller.php (Base Controller): Write handling functions
+        > Fnc model($model)
 3. Load model into controller
 ```
 
+> Part 3: Views
 
+```
+1. views - Each controller corresponds to 1 module `view`
+2. core
+    > Controller.php (Base Controller): Write handling functions
+        > Fnc render($view, $data=[])
+3. Load view into controller
+```
 
+> Part 4: Master Layout
 
-
-
+```
+1. Extract data through layout
+    > Sending data from controller side to view side via layout requires a 2-dimensional array
+2. public
+    > assets
+        > clients > css + fonts + images + js + ...
+        > admin > ...
+```

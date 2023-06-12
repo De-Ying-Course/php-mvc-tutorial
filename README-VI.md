@@ -39,3 +39,33 @@
 2. Xử lý điều hướng (routes) - Gọi các controller tương ứng - `App.php`
 3. Bộ điều khiển - Lớp & Hành động
 ```
+
+> Phần 2: Models
+
+```
+1. models
+2. core
+     > Controller.php (Base Controller): Viết hàm xử lý
+3. Tải mô hình vào bộ điều khiển
+```
+
+> Part 3: Views
+
+```
+1. views - Mỗi controller tương ứng với 1 module `view`
+2. core
+    > Controller.php (Base Controller): Viết hàm xử lý
+        > Fnc render($view, $data=[])
+3. Tải chế độ xem vào bộ điều khiển
+```
+
+> Part 4: Master Layout
+
+```
+1. Trích xuất dữ liệu thông qua bố cục
+    > Gửi dữ liệu từ bên điều khiển sang bên xem qua bố cục yêu cầu mảng 2 chiều
+2. public
+    > assets
+        > clients > css + fonts + images + js + ...
+        > admin > ...
+```

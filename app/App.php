@@ -74,11 +74,6 @@ class App
         } else {
             $this->loadError();
         }
-
-        // echo "<pre>";
-        // print_r($this->__params);
-        // echo "</pre>";
-
     }
 
     public function loadError($name='404')
