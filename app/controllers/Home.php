@@ -1,14 +1,22 @@
 <?php
 
-class Home
+class Home extends Controller
 {
-    public function index()
+    public $model_home;
+
+    public function __construct()
     {
-        echo "a";
+        $this->model_home = $this->model('HomeModel');
     }
 
-    public function details($slug='', $id='') {
-        echo 'ID sản phẩm: '. $id .'</br>';
-        echo 'slug: ' . $slug;
+    public function index()
+    {
+        $data = $this->model_home->getList();
+
+        echo '<pre>';
+        print_r($data);
+        echo '</pre>';
+
+        // Render views
     }
 }

@@ -40,6 +40,17 @@
 3. Controllers - Class & Action
 ```
 
+> Part 2: Models
+
+```
+1. models
+2. core 
+    > Controller.php (Base Controller): Write a function to handle model 
+3. Load model into controller
+```
+
+
+
 
 
 
