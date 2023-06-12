@@ -30,3 +30,16 @@
     6.9. Application optimization 
 ```
 
+## Shared content
+
+> Part 1: Routes, Controllers
+
+```
+1. Configuration file `.htaccess`  
+2. Handling navigation (routes) - Call the respective controllers - `App.php`
+3. Controllers - Class & Action
+```
+
+
+
+

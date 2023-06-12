@@ -29,3 +29,13 @@
     6.8. Cơ sở dữ liệu mã
     6.9. tối ưu hóa ứng dụng
 ```
+
+## Nội dung được chia sẻ
+
+> Phần 1: Routes, Controllers
+
+```
+1. Tệp cấu hình `.htaccess`
+2. Xử lý điều hướng (routes) - Gọi các controller tương ứng - `App.php`
+3. Bộ điều khiển - Lớp & Hành động
+```
