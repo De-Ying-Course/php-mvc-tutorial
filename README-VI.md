@@ -69,3 +69,11 @@
         > clients > css + fonts + images + js + ...
         > admin > ...
 ```
+
+> Part 5: Routes
+
+```
+1. Xử lý việc liên quan đến handle
+2. Thay thế qua biến `App.php`
+```
+

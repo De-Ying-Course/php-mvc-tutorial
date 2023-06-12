@@ -2,15 +2,16 @@
 
 class Home extends Controller
 {
-    public $model_home;
-
-    public function __construct()
-    {
-        $this->model_home = $this->model('HomeModel');
-    }
-
     public function index()
     {
-        // Render views
+        $data =  [
+            'Item 1',
+            'Item 2',
+            'Item 3'
+        ];
+
+        echo "<pre>";
+        print_r($data);
+        echo "</pre>";
     }
 }

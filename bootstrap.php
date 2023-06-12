@@ -15,5 +15,6 @@ $web_root = $web_root . $folder; // - http://localhost/php-mvc-tutorial
 define('_WEB_ROOT', $web_root);
 
 require_once 'configs/routes.php';
+require_once 'core/Route.php';
 require_once 'app/App.php'; // Load App
 require_once 'core/Controller.php'; // Load base Controller

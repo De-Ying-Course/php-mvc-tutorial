@@ -70,3 +70,11 @@
         > clients > css + fonts + images + js + ...
         > admin > ...
 ```
+
+> Part 5: Routes
+
+```
+1. Dealing with handle-related matters
+2. Replace via `App.php` variable
+```
+
